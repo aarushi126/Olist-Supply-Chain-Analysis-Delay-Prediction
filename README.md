@@ -9,6 +9,7 @@ To quantify and visualize these patterns, I built several KPIs and visual dashbo
 The most impactful part of the project was developing a predictive model to classify whether an order would be delayed or delivered on time. I engineered features based on order time (hour of day), freight cost, shipping distance (via geolocation), product price, and category. I trained both Logistic Regression and Random Forest models. While logistic regression performed well on accuracy due to class imbalance, it failed to correctly identify delayed orders. The Random Forest model, on the other hand, showed strong performance—especially in precision for delay prediction (91%), meaning when it flags a shipment as delayed, it’s usually correct. While the recall was moderate (14%), it’s still a useful model for business operations, acting as a reliable early-warning system that Olist could use to flag high-risk shipments and potentially intervene before a delay affects customer satisfaction.
 
 Beyond model performance, I also pulled together a set of business insights that could guide Olist in improving its supply chain:
+
 Product categories like furniture and seasonal décor are more likely to be delayed and need better planning.
 
 Northern and Northeastern Brazil are hotspots for delays and may require targeted infrastructure improvements or new delivery partners.
